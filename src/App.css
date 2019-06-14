@@ -2,31 +2,44 @@ html {
   text-align: center;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight:lighter;
+  background-color: #696c70;
+  color: #fcfdff;
+  height: 6rem;
+  text-align: left;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
 div#root {
-  border-style: solid;
+  border-style: ridge;
   border-width: 2px;
-  background-color: lightgrey;
+  background-color: #fcfdff;
 }
 
 div.movie {
-  font-size: 1.5em;
-  text-align: left;
-  padding-left: 30%;
-  display: list-item;
-  list-style-type: disc;
-  list-style-position: inside;
+  text-align: center;
+  text-indent: 20px;
+  font-size: 2rem;
+  padding: 10px;
 }
 
 button {
-  margin: 10px 10px 10px 10px;
-  padding: 20px 20px 20px 20px;
-  font-size: 1.3em;
-  background-color: purple;
-  color: green;
+  background-color: #696c70;
+  color: #fcfdff;
+  display: block;
+  width: 100%;
+  font-size: 50px;
+  font-weight:lighter;
+  height: 6rem;
+  text-align: right;
+  cursor: pointer;
 }
 
 a:link, a:visited {
   text-decoration: none;
-  color: white;
-
+  color: #6c6e70;
 }

@@ -38,9 +38,9 @@ class MovieBox extends Component {
   render() {
     return (
     <Fragment>
-      <h1> Upcoming Releases: </h1>
+      <h1> Upcoming Releases </h1>
       <MovieList data={this.state.data} />
-      <button onClick={this.link}>View more upcoming releases</button>
+      <button onClick={this.link}>View more</button>
     </Fragment>
     )
   }
